@@ -1,0 +1,24 @@
+{
+    "name": "jpollard3/shared",
+    "description": "Shared library example.",
+    "keywords": ["composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Jeremy Pollard",
+            "email": "jpollard3@sbcglobal.net"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "jpollard3\\shared\\": "src/"
+        }
+    }
+}
